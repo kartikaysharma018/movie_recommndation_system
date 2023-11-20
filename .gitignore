@@ -1,0 +1,67 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# IDE specific
+.idea/
+
+# Compiled files
+*.class
+
+# Dependency directories tf?
+#/src/main/java/com/movie/recommendation/repo/
+#/src/main/java/com/movie/recommendation/service/
+#/src/test/java/com/movie/recommendation/controller/
+#/src/test/java/com/movie/recommendation/service/
+
+# Log files
+/logs/
+
+# Compiled Maven dependencies
+/target/
+
+# IntelliJ specific
+.idea_modules/
+
+# Eclipse specific
+.settings/
+bin/
+
+# Application Properties
+src/main/resources/application.properties
+
+# Data (for now, trust)
+src/main/resources/data/
+
+# Local files
+SonarQube-analysis.cmd
